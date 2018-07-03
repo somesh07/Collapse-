@@ -1,0 +1,75 @@
+html,
+body,
+{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+background-image: url("./img/era.jpg");
+background-position: center;
+	
+	
+}
+.buttonclass{
+	width: 100%;
+	height: 40px;
+	font-size: 30px;
+	cursor: pointer;
+
+	
+
+	
+}
+.buttonclass i{
+	
+}
+.main{
+	width: 100%;
+	height:auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: white;
+	border: 2px black;
+	display: none;
+
+}
+
+img{
+	float: right;
+}
+
+
+.buttonclass:link, .buttonclass:visited {
+    
+    color: black;
+    
+   
+    text-decoration: none;
+    
+    
+    
+}
+.buttonclass:hover,.buttonclass:active {
+	background-color:white;
+    text-decoration: none;
+    color: black;
+    font-size:110%;
+        
+  }
+
+  .arrow :hover,.arrow:active {
+
+	text-decoration: none;
+   
+    transform: rotate(180deg);
+   
+    transition: .4s;
+    
+  }
+ 
